@@ -1,0 +1,51 @@
+{
+  "dataset": "papalexi",
+  "donor": 0.16038236936301312,
+  "native": 0.5326059864122916,
+  "pilots": {
+    "1": {
+      "debiased": 0.8421825084471256,
+      "sd": 0.025421073694084854,
+      "vs_donor": 0.6818001390841125,
+      "vs_native": 0.309576522034834,
+      "frac_draws_beat_native": 1.0
+    },
+    "2": {
+      "debiased": 0.869418267587621,
+      "sd": 0.010761230552591225,
+      "vs_donor": 0.7090358982246079,
+      "vs_native": 0.33681228117532935,
+      "frac_draws_beat_native": 1.0
+    },
+    "3": {
+      "debiased": 0.8765780368634765,
+      "sd": 0.00558291196955141,
+      "vs_donor": 0.7161956675004634,
+      "vs_native": 0.34397205045118484,
+      "frac_draws_beat_native": 1.0
+    },
+    "5": {
+      "debiased": 0.8817953086253048,
+      "sd": 0.004225421009890842,
+      "vs_donor": 0.7214129392622917,
+      "vs_native": 0.34918932221301313,
+      "frac_draws_beat_native": 1.0
+    },
+    "10": {
+      "debiased": 0.8850773816421197,
+      "sd": 0.0025817116904341816,
+      "vs_donor": 0.7246950122791066,
+      "vs_native": 0.35247139522982807,
+      "frac_draws_beat_native": 1.0
+    },
+    "20": {
+      "debiased": 0.8871030477660616,
+      "sd": 0.0024542161533523312,
+      "vs_donor": 0.7267206784030485,
+      "vs_native": 0.35449706135377,
+      "frac_draws_beat_native": 1.0
+    }
+  },
+  "min_pilot": 1,
+  "verdict": "a pilot of 1 perturbations suffices to beat native"
+}

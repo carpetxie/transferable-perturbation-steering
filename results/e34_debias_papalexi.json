@@ -1,0 +1,23 @@
+{
+  "dataset": "papalexi",
+  "bias_consistency": 0.9439235444302435,
+  "donor": 0.16978222927829364,
+  "debiased": 0.885146803665127,
+  "native": 0.5245760795241567,
+  "debiased_minus_donor": {
+    "delta": 0.7153645743868334,
+    "ci": [
+      0.6785765646262844,
+      0.7522234387835384
+    ],
+    "significant": true
+  },
+  "debiased_minus_native": {
+    "delta": 0.3605707241409702,
+    "ci": [
+      0.33864341362406153,
+      0.3846970789818501
+    ],
+    "significant": true
+  }
+}

@@ -1,0 +1,1124 @@
+{
+  "thp1:scgpt->gf2": {
+    "dim1": {
+      "cell_cycle_G2M": {
+        "z": 27.88736215699877,
+        "real": 0.3016576119174429,
+        "null_mean": 0.05671306599312132,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 8.087752325641622,
+        "real": 0.10841611675529655,
+        "null_mean": 0.04742041466218041,
+        "beats_all_nulls": true,
+        "n_genes": 35
+      },
+      "UPR_ER_stress": {
+        "z": 3.2439788503142077,
+        "real": 0.1601346027325579,
+        "null_mean": 0.11025761389510647,
+        "beats_all_nulls": false,
+        "n_genes": 25
+      },
+      "interferon": {
+        "z": -0.8817503891581803,
+        "real": 0.10430104117562361,
+        "null_mean": 0.11630153798491018,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 0.7196991741007213,
+        "real": 0.1194018068221856,
+        "null_mean": 0.11081479588130337,
+        "beats_all_nulls": false,
+        "n_genes": 40
+      }
+    },
+    "dim2": {
+      "cell_cycle_G2M": {
+        "z": 27.67984194926357,
+        "real": 0.3959533875319007,
+        "null_mean": 0.06533289352170422,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 19.387856994743967,
+        "real": 0.24852253907610014,
+        "null_mean": 0.056795170521348484,
+        "beats_all_nulls": true,
+        "n_genes": 35
+      },
+      "UPR_ER_stress": {
+        "z": 1.7219159166274418,
+        "real": 0.15360127366108026,
+        "null_mean": 0.12126926093629081,
+        "beats_all_nulls": false,
+        "n_genes": 25
+      },
+      "interferon": {
+        "z": 4.422991544236433,
+        "real": 0.2089225027996577,
+        "null_mean": 0.12755915523371406,
+        "beats_all_nulls": true,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 9.999012939878458,
+        "real": 0.2808358457743313,
+        "null_mean": 0.12134649425045357,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim3": {
+      "cell_cycle_G2M": {
+        "z": 14.69308348688473,
+        "real": 0.22353259721731975,
+        "null_mean": 0.058786649572346666,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 7.604614995247401,
+        "real": 0.11558702445208645,
+        "null_mean": 0.04937308663295422,
+        "beats_all_nulls": true,
+        "n_genes": 35
+      },
+      "UPR_ER_stress": {
+        "z": 20.05639150657749,
+        "real": 0.5001717681496874,
+        "null_mean": 0.09799963000624407,
+        "beats_all_nulls": true,
+        "n_genes": 25
+      },
+      "interferon": {
+        "z": -2.953170751234387,
+        "real": 0.050951659018378996,
+        "null_mean": 0.10373560081650707,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 0.43102324494219824,
+        "real": 0.10497993901978835,
+        "null_mean": 0.0982264932011548,
+        "beats_all_nulls": false,
+        "n_genes": 40
+      }
+    },
+    "dim4": {
+      "cell_cycle_G2M": {
+        "z": 29.951760962361483,
+        "real": 0.30437484403249043,
+        "null_mean": 0.0533660508796182,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 4.315099363880254,
+        "real": 0.07827827762862927,
+        "null_mean": 0.046267692078955265,
+        "beats_all_nulls": true,
+        "n_genes": 35
+      },
+      "UPR_ER_stress": {
+        "z": 1.8407491250762733,
+        "real": 0.13497284136434867,
+        "null_mean": 0.10094963739995054,
+        "beats_all_nulls": false,
+        "n_genes": 25
+      },
+      "interferon": {
+        "z": 10.617907482733422,
+        "real": 0.29337156472810444,
+        "null_mean": 0.10753332104578277,
+        "beats_all_nulls": true,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 11.70237027933699,
+        "real": 0.2723232935933006,
+        "null_mean": 0.10197330356768051,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim5": {
+      "cell_cycle_G2M": {
+        "z": 10.320067353276968,
+        "real": 0.12413089336925116,
+        "null_mean": 0.050845363993331165,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 17.26797513565535,
+        "real": 0.1581855022904864,
+        "null_mean": 0.04419367222515471,
+        "beats_all_nulls": true,
+        "n_genes": 35
+      },
+      "UPR_ER_stress": {
+        "z": 1.2463674500244697,
+        "real": 0.09419806874976626,
+        "null_mean": 0.07866883331300961,
+        "beats_all_nulls": false,
+        "n_genes": 25
+      },
+      "interferon": {
+        "z": -0.41323666969007067,
+        "real": 0.07632699277664556,
+        "null_mean": 0.08105031779481581,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 6.718478850476507,
+        "real": 0.14036846861176888,
+        "null_mean": 0.07801577233855582,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    }
+  },
+  "thp1:gf1->gf2": {
+    "dim1": {
+      "cell_cycle_G2M": {
+        "z": 22.729036607957724,
+        "real": 0.23724854314841604,
+        "null_mean": 0.05858032235973327,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 7.533649823055608,
+        "real": 0.10282873920396539,
+        "null_mean": 0.049223998620912784,
+        "beats_all_nulls": true,
+        "n_genes": 35
+      },
+      "UPR_ER_stress": {
+        "z": 2.8957939808738926,
+        "real": 0.15017342510980383,
+        "null_mean": 0.10824311957223434,
+        "beats_all_nulls": false,
+        "n_genes": 25
+      },
+      "interferon": {
+        "z": -1.5199217140486108,
+        "real": 0.09362812919811736,
+        "null_mean": 0.11318109986447032,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": -0.4040657291714203,
+        "real": 0.10367903766359687,
+        "null_mean": 0.10820900107775304,
+        "beats_all_nulls": false,
+        "n_genes": 40
+      }
+    },
+    "dim2": {
+      "cell_cycle_G2M": {
+        "z": 22.48121778492906,
+        "real": 0.2578703566258198,
+        "null_mean": 0.05359226344393779,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 15.491946288121905,
+        "real": 0.16366964075166904,
+        "null_mean": 0.04635814641779594,
+        "beats_all_nulls": true,
+        "n_genes": 35
+      },
+      "UPR_ER_stress": {
+        "z": -2.322133357826547,
+        "real": 0.06419130043411146,
+        "null_mean": 0.10510225694916916,
+        "beats_all_nulls": false,
+        "n_genes": 25
+      },
+      "interferon": {
+        "z": 6.986502104324314,
+        "real": 0.23297560917972182,
+        "null_mean": 0.11115153225814538,
+        "beats_all_nulls": true,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 14.312999679178958,
+        "real": 0.30663982183570876,
+        "null_mean": 0.10524749894033819,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim3": {
+      "cell_cycle_G2M": {
+        "z": -3.1148162407734845,
+        "real": 0.02987635146219104,
+        "null_mean": 0.051748454661910415,
+        "beats_all_nulls": false,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 8.319263226801132,
+        "real": 0.09776302093165863,
+        "null_mean": 0.04482728579065501,
+        "beats_all_nulls": true,
+        "n_genes": 35
+      },
+      "UPR_ER_stress": {
+        "z": -2.8921274043490857,
+        "real": 0.05349496421876385,
+        "null_mean": 0.09932795358219769,
+        "beats_all_nulls": false,
+        "n_genes": 25
+      },
+      "interferon": {
+        "z": 5.573580949501712,
+        "real": 0.19607055981648092,
+        "null_mean": 0.10448455706542163,
+        "beats_all_nulls": true,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 15.80253979888965,
+        "real": 0.31467922071470883,
+        "null_mean": 0.09985168106338371,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim4": {
+      "cell_cycle_G2M": {
+        "z": 18.347004279185388,
+        "real": 0.22559919529028138,
+        "null_mean": 0.05943422715977843,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 13.474518809325536,
+        "real": 0.1581683461884604,
+        "null_mean": 0.050102884871733464,
+        "beats_all_nulls": true,
+        "n_genes": 35
+      },
+      "UPR_ER_stress": {
+        "z": 12.247180988413247,
+        "real": 0.3121486506901822,
+        "null_mean": 0.102691434301754,
+        "beats_all_nulls": true,
+        "n_genes": 25
+      },
+      "interferon": {
+        "z": -0.7619166737329119,
+        "real": 0.09607344594743053,
+        "null_mean": 0.10732004328642172,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 6.008301310403703,
+        "real": 0.18097298886119928,
+        "null_mean": 0.10260195455552015,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim5": {
+      "cell_cycle_G2M": {
+        "z": 30.53387121687826,
+        "real": 0.3723489208043623,
+        "null_mean": 0.054779994482883794,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 14.80620043863048,
+        "real": 0.18265079783135482,
+        "null_mean": 0.04862842611902496,
+        "beats_all_nulls": true,
+        "n_genes": 35
+      },
+      "UPR_ER_stress": {
+        "z": 14.556680809763446,
+        "real": 0.3033364253731256,
+        "null_mean": 0.08545658301046952,
+        "beats_all_nulls": true,
+        "n_genes": 25
+      },
+      "interferon": {
+        "z": 0.898996726527609,
+        "real": 0.10146536366868474,
+        "null_mean": 0.08946854755454166,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": -1.934464089485982,
+        "real": 0.06436331930818776,
+        "null_mean": 0.08535580872412969,
+        "beats_all_nulls": false,
+        "n_genes": 40
+      }
+    }
+  },
+  "neuron:scgpt->gf2": {
+    "dim1": {
+      "cell_cycle_G2M": {
+        "z": -0.972553156051376,
+        "real": 0.04390582989295598,
+        "null_mean": 0.0497078633029932,
+        "beats_all_nulls": false,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": -1.6483451822673751,
+        "real": 0.05641338943663825,
+        "null_mean": 0.06934994277771828,
+        "beats_all_nulls": false,
+        "n_genes": 37
+      },
+      "UPR_ER_stress": {
+        "z": 0.41339504678206007,
+        "real": 0.16537411331182447,
+        "null_mean": 0.15812983088792829,
+        "beats_all_nulls": false,
+        "n_genes": 26
+      },
+      "interferon": {
+        "z": 1.223231723771911,
+        "real": 0.037962683275729193,
+        "null_mean": 0.03198721796017567,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 8.22158984783099,
+        "real": 0.3353942061789533,
+        "null_mean": 0.19704967105154933,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim2": {
+      "cell_cycle_G2M": {
+        "z": -1.0173987905372077,
+        "real": 0.02766686804619728,
+        "null_mean": 0.03186888135149533,
+        "beats_all_nulls": false,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 1.0022602628318025,
+        "real": 0.04013485134982668,
+        "null_mean": 0.03515610061841089,
+        "beats_all_nulls": false,
+        "n_genes": 37
+      },
+      "UPR_ER_stress": {
+        "z": -1.8316936791881158,
+        "real": 0.034807235371881455,
+        "null_mean": 0.05160495436340059,
+        "beats_all_nulls": false,
+        "n_genes": 26
+      },
+      "interferon": {
+        "z": 1.4844452962564265,
+        "real": 0.027441553262762226,
+        "null_mean": 0.021577072284154692,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 4.663722906502074,
+        "real": 0.09915122516451298,
+        "null_mean": 0.05963979152239397,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim3": {
+      "cell_cycle_G2M": {
+        "z": 0.18868164237029703,
+        "real": 0.03442877659281252,
+        "null_mean": 0.03350171328724616,
+        "beats_all_nulls": false,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": -1.0510970932337724,
+        "real": 0.03709187321960161,
+        "null_mean": 0.04296740967294566,
+        "beats_all_nulls": false,
+        "n_genes": 37
+      },
+      "UPR_ER_stress": {
+        "z": -2.3495521469305496,
+        "real": 0.04902796078859543,
+        "null_mean": 0.07692020057967189,
+        "beats_all_nulls": false,
+        "n_genes": 26
+      },
+      "interferon": {
+        "z": 2.647517117829327,
+        "real": 0.03438279826971959,
+        "null_mean": 0.023835458847407405,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 2.235834061272048,
+        "real": 0.11036117592496009,
+        "null_mean": 0.08812655560721601,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim4": {
+      "cell_cycle_G2M": {
+        "z": 22.407972927167943,
+        "real": 0.2816010491161745,
+        "null_mean": 0.03288918553853403,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 13.556746197582585,
+        "real": 0.1593642228822847,
+        "null_mean": 0.03432123091055349,
+        "beats_all_nulls": true,
+        "n_genes": 37
+      },
+      "UPR_ER_stress": {
+        "z": -1.9652156176562718,
+        "real": 0.024502291599396667,
+        "null_mean": 0.040499215065635474,
+        "beats_all_nulls": false,
+        "n_genes": 26
+      },
+      "interferon": {
+        "z": 1.2869760243623662,
+        "real": 0.03325548211057584,
+        "null_mean": 0.021647522272677695,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 15.36807445821044,
+        "real": 0.16208792640160588,
+        "null_mean": 0.045771653696657075,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim5": {
+      "cell_cycle_G2M": {
+        "z": 5.737326468555998,
+        "real": 0.05993916946097762,
+        "null_mean": 0.03238095091009166,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 0.5605803257010116,
+        "real": 0.0395042096134693,
+        "null_mean": 0.03638840774533671,
+        "beats_all_nulls": false,
+        "n_genes": 37
+      },
+      "UPR_ER_stress": {
+        "z": 9.587080943601977,
+        "real": 0.13975540568708594,
+        "null_mean": 0.050710731959310924,
+        "beats_all_nulls": true,
+        "n_genes": 26
+      },
+      "interferon": {
+        "z": 3.7593682980488894,
+        "real": 0.03957348771196286,
+        "null_mean": 0.022417022357248472,
+        "beats_all_nulls": true,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 8.982357644103557,
+        "real": 0.13692453511353894,
+        "null_mean": 0.05789440114573688,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    }
+  },
+  "neuron:gf1->gf2": {
+    "dim1": {
+      "cell_cycle_G2M": {
+        "z": -1.1882302812306813,
+        "real": 0.042958925199144085,
+        "null_mean": 0.04983105543777667,
+        "beats_all_nulls": false,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": -1.729530359616403,
+        "real": 0.05701618038619996,
+        "null_mean": 0.06991198277434821,
+        "beats_all_nulls": false,
+        "n_genes": 37
+      },
+      "UPR_ER_stress": {
+        "z": 0.4668373555304667,
+        "real": 0.16612979205262104,
+        "null_mean": 0.1584010724479586,
+        "beats_all_nulls": false,
+        "n_genes": 26
+      },
+      "interferon": {
+        "z": 0.8573010437646716,
+        "real": 0.03661728769757821,
+        "null_mean": 0.032421302573840634,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 7.630432220965883,
+        "real": 0.31602393039091653,
+        "null_mean": 0.19613944630948046,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim2": {
+      "cell_cycle_G2M": {
+        "z": -0.06369836421524663,
+        "real": 0.030736352011579416,
+        "null_mean": 0.030990341336498504,
+        "beats_all_nulls": false,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 0.7487095655025972,
+        "real": 0.037651741458265144,
+        "null_mean": 0.03421019693903639,
+        "beats_all_nulls": false,
+        "n_genes": 37
+      },
+      "UPR_ER_stress": {
+        "z": -2.4021636426729542,
+        "real": 0.03127707680356846,
+        "null_mean": 0.053138267584672834,
+        "beats_all_nulls": false,
+        "n_genes": 26
+      },
+      "interferon": {
+        "z": 0.9745006017333895,
+        "real": 0.024379416674018918,
+        "null_mean": 0.020673589076810394,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 8.440289008458139,
+        "real": 0.13601391833829524,
+        "null_mean": 0.063684773125409,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim3": {
+      "cell_cycle_G2M": {
+        "z": 0.7621041282093152,
+        "real": 0.03730128344335391,
+        "null_mean": 0.03349477419043446,
+        "beats_all_nulls": false,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": -0.49725812063867425,
+        "real": 0.039494634312929384,
+        "null_mean": 0.042172078754154706,
+        "beats_all_nulls": false,
+        "n_genes": 37
+      },
+      "UPR_ER_stress": {
+        "z": -2.411087001986074,
+        "real": 0.046016267725950306,
+        "null_mean": 0.074863006751216,
+        "beats_all_nulls": false,
+        "n_genes": 26
+      },
+      "interferon": {
+        "z": 2.174657903768691,
+        "real": 0.03263228667570915,
+        "null_mean": 0.023694802048214253,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 5.049983439451665,
+        "real": 0.137552565173175,
+        "null_mean": 0.08611642101498321,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim4": {
+      "cell_cycle_G2M": {
+        "z": -0.4336715480058991,
+        "real": 0.025157319275993153,
+        "null_mean": 0.026666575166412184,
+        "beats_all_nulls": false,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": -1.7711816712720427,
+        "real": 0.022996257213867978,
+        "null_mean": 0.029646370134278056,
+        "beats_all_nulls": false,
+        "n_genes": 37
+      },
+      "UPR_ER_stress": {
+        "z": -0.9947877034195072,
+        "real": 0.03309665255652813,
+        "null_mean": 0.03848599100526238,
+        "beats_all_nulls": false,
+        "n_genes": 26
+      },
+      "interferon": {
+        "z": -0.2496517301116037,
+        "real": 0.018241960435250882,
+        "null_mean": 0.018979963459766228,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 6.327837240514801,
+        "real": 0.07214659425972415,
+        "null_mean": 0.04168794632425415,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim5": {
+      "cell_cycle_G2M": {
+        "z": 15.98328384466398,
+        "real": 0.1199842885460292,
+        "null_mean": 0.032415734083413424,
+        "beats_all_nulls": true,
+        "n_genes": 33
+      },
+      "cell_cycle_S": {
+        "z": 7.177859285346507,
+        "real": 0.07654327797937985,
+        "null_mean": 0.034748627779844686,
+        "beats_all_nulls": true,
+        "n_genes": 37
+      },
+      "UPR_ER_stress": {
+        "z": 6.4915770451032815,
+        "real": 0.10444227354884046,
+        "null_mean": 0.04681183061097806,
+        "beats_all_nulls": true,
+        "n_genes": 26
+      },
+      "interferon": {
+        "z": 2.458523522353425,
+        "real": 0.03407495901750877,
+        "null_mean": 0.021730721414771188,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 13.517046920057986,
+        "real": 0.1674884351831992,
+        "null_mean": 0.05332697764149319,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    }
+  },
+  "pbmc:scgpt->gf2": {
+    "dim1": {
+      "cell_cycle_G2M": {
+        "z": -1.236893572391331,
+        "real": 0.029385140978401354,
+        "null_mean": 0.04013910007885666,
+        "beats_all_nulls": false,
+        "n_genes": 29
+      },
+      "cell_cycle_S": {
+        "z": -2.788079602854601,
+        "real": 0.019473506934575373,
+        "null_mean": 0.042026884940702926,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "UPR_ER_stress": {
+        "z": -1.6814809324602606,
+        "real": 0.06381225070713727,
+        "null_mean": 0.1063366356904502,
+        "beats_all_nulls": false,
+        "n_genes": 24
+      },
+      "interferon": {
+        "z": 3.2284474698378096,
+        "real": 0.20553894067215775,
+        "null_mean": 0.12804237581906872,
+        "beats_all_nulls": true,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 7.93261798904098,
+        "real": 0.3159690383748693,
+        "null_mean": 0.13649664219693838,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim2": {
+      "cell_cycle_G2M": {
+        "z": 0.949194125843196,
+        "real": 0.04106939392808376,
+        "null_mean": 0.03592406109520074,
+        "beats_all_nulls": false,
+        "n_genes": 29
+      },
+      "cell_cycle_S": {
+        "z": 1.201228634557984,
+        "real": 0.046067205882320286,
+        "null_mean": 0.0394625554329024,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "UPR_ER_stress": {
+        "z": 0.3310787999865293,
+        "real": 0.09279500336442875,
+        "null_mean": 0.08893248810716121,
+        "beats_all_nulls": false,
+        "n_genes": 24
+      },
+      "interferon": {
+        "z": 0.9966420506868207,
+        "real": 0.11611622218819796,
+        "null_mean": 0.10516250677775116,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": -0.5828631908583475,
+        "real": 0.10213575872424796,
+        "null_mean": 0.10781899883786883,
+        "beats_all_nulls": false,
+        "n_genes": 40
+      }
+    },
+    "dim3": {
+      "cell_cycle_G2M": {
+        "z": 1.3342473358750877,
+        "real": 0.033613892253925776,
+        "null_mean": 0.020310544735322025,
+        "beats_all_nulls": false,
+        "n_genes": 29
+      },
+      "cell_cycle_S": {
+        "z": -0.37399526025005186,
+        "real": 0.018056194382051766,
+        "null_mean": 0.022333853580664722,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "UPR_ER_stress": {
+        "z": -0.8061127631890411,
+        "real": 0.027780070578052762,
+        "null_mean": 0.04207103846556869,
+        "beats_all_nulls": false,
+        "n_genes": 24
+      },
+      "interferon": {
+        "z": -0.4334333547140599,
+        "real": 0.04277521567224735,
+        "null_mean": 0.0495668424718976,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 15.033422843982171,
+        "real": 0.2789548017907516,
+        "null_mean": 0.05480294104817393,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim4": {
+      "cell_cycle_G2M": {
+        "z": -1.4087037534573146,
+        "real": 0.021230859732997886,
+        "null_mean": 0.02987910358462927,
+        "beats_all_nulls": false,
+        "n_genes": 29
+      },
+      "cell_cycle_S": {
+        "z": -1.4529743543479265,
+        "real": 0.024104075968905757,
+        "null_mean": 0.03251784436031993,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "UPR_ER_stress": {
+        "z": -0.061755594956828204,
+        "real": 0.05478401126777908,
+        "null_mean": 0.05553905255597306,
+        "beats_all_nulls": false,
+        "n_genes": 24
+      },
+      "interferon": {
+        "z": 1.319233504745205,
+        "real": 0.08031828943936717,
+        "null_mean": 0.06277305574492374,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 3.96667961372111,
+        "real": 0.11102613204642772,
+        "null_mean": 0.06487121144999577,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim5": {
+      "cell_cycle_G2M": {
+        "z": 1.7270243033071113,
+        "real": 0.03969720340746692,
+        "null_mean": 0.02982402721000606,
+        "beats_all_nulls": false,
+        "n_genes": 29
+      },
+      "cell_cycle_S": {
+        "z": 1.4043698275930363,
+        "real": 0.040998875729382954,
+        "null_mean": 0.03295231540642438,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "UPR_ER_stress": {
+        "z": 0.7584820589292713,
+        "real": 0.060139141568962516,
+        "null_mean": 0.05152584291338892,
+        "beats_all_nulls": false,
+        "n_genes": 24
+      },
+      "interferon": {
+        "z": 0.28681049910020284,
+        "real": 0.060618923819312574,
+        "null_mean": 0.05739116507878265,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 1.3809977249242416,
+        "real": 0.07181709300783201,
+        "null_mean": 0.05819401485092161,
+        "beats_all_nulls": false,
+        "n_genes": 40
+      }
+    }
+  },
+  "pbmc:gf1->gf2": {
+    "dim1": {
+      "cell_cycle_G2M": {
+        "z": 0.13372581262388533,
+        "real": 0.04118325304189137,
+        "null_mean": 0.040108609936275456,
+        "beats_all_nulls": false,
+        "n_genes": 29
+      },
+      "cell_cycle_S": {
+        "z": -2.027447522095587,
+        "real": 0.02641574606641925,
+        "null_mean": 0.04158523893248883,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "UPR_ER_stress": {
+        "z": -1.3500386053756495,
+        "real": 0.07759601397222707,
+        "null_mean": 0.10809898070298668,
+        "beats_all_nulls": false,
+        "n_genes": 24
+      },
+      "interferon": {
+        "z": 3.5236410702444756,
+        "real": 0.20583982831505301,
+        "null_mean": 0.13028355401840316,
+        "beats_all_nulls": true,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 8.654473348113116,
+        "real": 0.3135315027087234,
+        "null_mean": 0.13811289815478148,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim2": {
+      "cell_cycle_G2M": {
+        "z": -0.5916796751162464,
+        "real": 0.03187666224503995,
+        "null_mean": 0.03561280801575054,
+        "beats_all_nulls": false,
+        "n_genes": 29
+      },
+      "cell_cycle_S": {
+        "z": 1.3978214312394364,
+        "real": 0.04797782497364268,
+        "null_mean": 0.039805505104880935,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "UPR_ER_stress": {
+        "z": -0.6764386829338239,
+        "real": 0.08084645409076557,
+        "null_mean": 0.09107951826193598,
+        "beats_all_nulls": false,
+        "n_genes": 24
+      },
+      "interferon": {
+        "z": 0.03397089784593596,
+        "real": 0.10809635489646309,
+        "null_mean": 0.10756069529086912,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 3.8212565406171652,
+        "real": 0.1658452836202438,
+        "null_mean": 0.1113827753869419,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim3": {
+      "cell_cycle_G2M": {
+        "z": 0.636398479679049,
+        "real": 0.02585083217192469,
+        "null_mean": 0.01959418569466014,
+        "beats_all_nulls": false,
+        "n_genes": 29
+      },
+      "cell_cycle_S": {
+        "z": -0.7765241448538089,
+        "real": 0.013098901652417528,
+        "null_mean": 0.021965209033602794,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "UPR_ER_stress": {
+        "z": -1.0027269821316893,
+        "real": 0.02696185799732467,
+        "null_mean": 0.04357938401080385,
+        "beats_all_nulls": false,
+        "n_genes": 24
+      },
+      "interferon": {
+        "z": 0.5429787618963133,
+        "real": 0.05969406399213033,
+        "null_mean": 0.05176626144706714,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 14.506144991662586,
+        "real": 0.2569893403516633,
+        "null_mean": 0.05693839787124412,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    },
+    "dim4": {
+      "cell_cycle_G2M": {
+        "z": -1.5725879588193643,
+        "real": 0.01697497771686577,
+        "null_mean": 0.02762468997774313,
+        "beats_all_nulls": false,
+        "n_genes": 29
+      },
+      "cell_cycle_S": {
+        "z": -1.2956725940317992,
+        "real": 0.023311419606725108,
+        "null_mean": 0.03145453338185743,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "UPR_ER_stress": {
+        "z": -0.1433737001823525,
+        "real": 0.04718723967596413,
+        "null_mean": 0.04906522110679445,
+        "beats_all_nulls": false,
+        "n_genes": 24
+      },
+      "interferon": {
+        "z": 1.2608971721514128,
+        "real": 0.07255073611432254,
+        "null_mean": 0.05490228104700967,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": -0.33817622133953457,
+        "real": 0.05135647494194283,
+        "null_mean": 0.055238211253078595,
+        "beats_all_nulls": false,
+        "n_genes": 40
+      }
+    },
+    "dim5": {
+      "cell_cycle_G2M": {
+        "z": 1.9038871627400187,
+        "real": 0.03775409618099165,
+        "null_mean": 0.027465513498755374,
+        "beats_all_nulls": false,
+        "n_genes": 29
+      },
+      "cell_cycle_S": {
+        "z": 0.930949817448641,
+        "real": 0.035596870314226814,
+        "null_mean": 0.03037635609716762,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "UPR_ER_stress": {
+        "z": 0.8193672214732131,
+        "real": 0.0634020601339501,
+        "null_mean": 0.05340614517369649,
+        "beats_all_nulls": false,
+        "n_genes": 24
+      },
+      "interferon": {
+        "z": 0.6616284533691806,
+        "real": 0.0684907219619747,
+        "null_mean": 0.06054617118940802,
+        "beats_all_nulls": false,
+        "n_genes": 31
+      },
+      "ribosome": {
+        "z": 6.3638730974006235,
+        "real": 0.13485542915369736,
+        "null_mean": 0.06339892399175572,
+        "beats_all_nulls": true,
+        "n_genes": 40
+      }
+    }
+  }
+}

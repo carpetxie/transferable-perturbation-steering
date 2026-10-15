@@ -1,0 +1,59 @@
+{
+  "dataset": "papalexi",
+  "K": 24,
+  "targets": {
+    "scgpt": {
+      "n_perts": 81,
+      "ceiling": 0.5973407805011437,
+      "fm_donors": -0.31397533387685855,
+      "fm_pct_ceiling": -0.5256217960097191,
+      "all_donors": -0.31405000344510065,
+      "all_pct_ceiling": -0.5257467993088065,
+      "shuffled_floor": -0.448296835950306
+    },
+    "gf1": {
+      "n_perts": 81,
+      "ceiling": 0.5565332114638739,
+      "fm_donors": -0.3212255154116208,
+      "fm_pct_ceiling": -0.5771901996049564,
+      "all_donors": -0.3209919844438925,
+      "all_pct_ceiling": -0.5767705822974573,
+      "shuffled_floor": -0.42637411914917867
+    },
+    "gf2": {
+      "n_perts": 81,
+      "ceiling": 0.5238731881834084,
+      "fm_donors": -0.31265979571831226,
+      "fm_pct_ceiling": -0.5968234350807238,
+      "all_donors": -0.3149770465483781,
+      "all_pct_ceiling": -0.6012467399612449,
+      "shuffled_floor": -0.43448498451934325
+    },
+    "gf3": {
+      "n_perts": 81,
+      "ceiling": 0.5712966301599153,
+      "fm_donors": -0.3205947326754204,
+      "fm_pct_ceiling": -0.5611703548569518,
+      "all_donors": -0.321799106273016,
+      "all_pct_ceiling": -0.563278495416539,
+      "shuffled_floor": -0.4374559635994666
+    },
+    "pca": {
+      "n_perts": 81,
+      "ceiling": 0.5920403678685595,
+      "fm_donors": -0.3109430247959537,
+      "fm_pct_ceiling": -0.5252057826992416,
+      "all_donors": -0.3109430247959537,
+      "all_pct_ceiling": -0.5252057826992416,
+      "shuffled_floor": -0.4562670828001023
+    }
+  },
+  "pca_as_extra_donor_delta": {
+    "delta": -0.0008406907570437558,
+    "ci": [
+      -0.0028968371238631712,
+      0.0011741867587403132
+    ]
+  },
+  "verdict": "PCA target reaches -53% of its ceiling from FM donors (FM targets: -60%--53%)"
+}

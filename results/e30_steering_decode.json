@@ -1,0 +1,76 @@
+{
+  "target": "gf2",
+  "donors": [
+    "scgpt",
+    "gf1"
+  ],
+  "n_perts": 201,
+  "decoder_heldout_cos": 0.2061221997516236,
+  "arms": {
+    "real_cells": {
+      "mean": 0.5915035926829788,
+      "sd": 0.1703676785215927
+    },
+    "native": {
+      "mean": 0.5766913642140985,
+      "sd": 0.19734820264962946
+    },
+    "transplant": {
+      "mean": 0.5750642336286612,
+      "sd": 0.19455794037143007
+    },
+    "generic": {
+      "mean": 0.46966333769155744,
+      "sd": 0.2772560020592923
+    },
+    "random": {
+      "mean": -0.004028151918946032,
+      "sd": 0.2609644436221383
+    },
+    "identity": {
+      "mean": 0.0,
+      "sd": 0.0
+    },
+    "transplant_minus_generic": {
+      "delta": 0.10540089593710376,
+      "ci": [
+        0.08332801105146255,
+        0.13172905836125612
+      ],
+      "significant": true
+    },
+    "native_minus_generic": {
+      "delta": 0.10702802652254101,
+      "ci": [
+        0.08335235984760948,
+        0.13230811704476972
+      ],
+      "significant": true
+    },
+    "transplant_minus_native": {
+      "delta": -0.0016271305854372218,
+      "ci": [
+        -0.004512990489135816,
+        0.0011610197459441304
+      ],
+      "significant": false
+    },
+    "transplant_minus_random": {
+      "delta": 0.5790923855476073,
+      "ci": [
+        0.534517015165645,
+        0.6250973126776386
+      ],
+      "significant": true
+    },
+    "real_cells_minus_native": {
+      "delta": 0.014812228468880289,
+      "ci": [
+        0.004297745599477354,
+        0.025677024609457033
+      ],
+      "significant": true
+    }
+  },
+  "verdict": "POSITIVE: steering with a transplanted delta produces the correct differential expression in a decoder that never saw a perturbation"
+}

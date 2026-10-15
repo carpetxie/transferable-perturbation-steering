@@ -1,0 +1,33 @@
+{
+  "cell_order_check": "exact per-condition lib and ngene arrays across all models",
+  "conditions_per_model": 237,
+  "control_cells": 6000,
+  "embedding_dimensions": {
+    "geneformer": 256,
+    "geneformer_cl": 768,
+    "geneformer_v2": 768,
+    "geneformer_v3": 1152,
+    "pca": 128,
+    "scgpt": 512,
+    "scvi": 64
+  },
+  "files_checked": 1659,
+  "primary_models": [
+    "scgpt",
+    "geneformer",
+    "geneformer_v2",
+    "geneformer_v3",
+    "scvi",
+    "pca"
+  ],
+  "root": "/Users/jeffreyxie/.cache/silico_vec2vec/modal_emb/norman",
+  "sensitivity_models": [
+    "geneformer_cl"
+  ],
+  "total_cells_per_model": 29291,
+  "unknown_npz_files": [
+    "control_pca_basis.npz",
+    "scvi_hvg.npz"
+  ],
+  "valid": true
+}

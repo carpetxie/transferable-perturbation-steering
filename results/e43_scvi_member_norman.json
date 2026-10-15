@@ -1,0 +1,106 @@
+{
+  "dataset": "norman_modal",
+  "K": 24,
+  "targets": {
+    "scgpt": {
+      "n_perts": 201,
+      "ceiling": 0.5920900728541665,
+      "fm_donors": 0.44627035178283553,
+      "fm_pct_ceiling": 0.7537203750631928,
+      "shuffled_floor": 0.06558360245155109
+    },
+    "geneformer": {
+      "n_perts": 201,
+      "ceiling": 0.37754809071863626,
+      "fm_donors": 0.39509025195536907,
+      "fm_pct_ceiling": 1.046463382196802,
+      "shuffled_floor": 0.05903851952980803
+    },
+    "geneformer_v2": {
+      "n_perts": 201,
+      "ceiling": 0.5194832876513668,
+      "fm_donors": 0.46839991513835255,
+      "fm_pct_ceiling": 0.9016650319128321,
+      "shuffled_floor": 0.07904811050826042
+    },
+    "geneformer_v3": {
+      "n_perts": 201,
+      "ceiling": 0.5532287094968843,
+      "fm_donors": 0.4552202412714368,
+      "fm_pct_ceiling": 0.8228427654910062,
+      "shuffled_floor": 0.09573339040108382
+    },
+    "geneformer_cl": {
+      "n_perts": 201,
+      "ceiling": 0.4956540984273359,
+      "fm_donors": 0.45273361062462547,
+      "fm_pct_ceiling": 0.9134063696055513,
+      "shuffled_floor": 0.07921982037857458
+    },
+    "scvi": {
+      "n_perts": 201,
+      "ceiling": 0.6037048105110894,
+      "fm_donors": 0.449439317172319,
+      "fm_pct_ceiling": 0.7444686696993998,
+      "shuffled_floor": 0.06296825626375892
+    },
+    "pca": {
+      "n_perts": 201,
+      "ceiling": 0.6510260033210427,
+      "fm_donors": 0.5232116987263892,
+      "fm_pct_ceiling": 0.8036725047192562,
+      "shuffled_floor": 0.10708970647765667
+    }
+  },
+  "premium_vs_pca": {
+    "scgpt": {
+      "delta_pct": -0.04995212965606344,
+      "ci": [
+        -0.06547372663936034,
+        -0.03566345405928081
+      ],
+      "significant": true
+    },
+    "geneformer": {
+      "delta_pct": 0.24279087747754569,
+      "ci": [
+        0.19186960563625477,
+        0.3024498074497365
+      ],
+      "significant": true
+    },
+    "geneformer_v2": {
+      "delta_pct": 0.09799252719357587,
+      "ci": [
+        0.0791806620418634,
+        0.11750048274273531
+      ],
+      "significant": true
+    },
+    "geneformer_v3": {
+      "delta_pct": 0.019170260771749992,
+      "ci": [
+        0.0029496238138573554,
+        0.034966507272295805
+      ],
+      "significant": true
+    },
+    "geneformer_cl": {
+      "delta_pct": 0.10973386488629511,
+      "ci": [
+        0.08993332623991451,
+        0.12917201648186022
+      ],
+      "significant": true
+    },
+    "scvi": {
+      "delta_pct": -0.05920383501985638,
+      "ci": [
+        -0.07430284204809497,
+        -0.044331730440530626
+      ],
+      "significant": true
+    }
+  },
+  "verdict": "scVI 74%, CLcancer 91% of own ceiling (FM band 75%-105%)"
+}

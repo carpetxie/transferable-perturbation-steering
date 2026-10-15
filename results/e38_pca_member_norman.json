@@ -1,0 +1,59 @@
+{
+  "dataset": "norman",
+  "K": 24,
+  "targets": {
+    "scgpt": {
+      "n_perts": 201,
+      "ceiling": 0.6495671506562242,
+      "fm_donors": 0.5206034646627038,
+      "fm_pct_ceiling": 0.8014621184842321,
+      "all_donors": 0.5351125637514197,
+      "all_pct_ceiling": 0.8237986838017025,
+      "shuffled_floor": 0.11662445041377534
+    },
+    "gf1": {
+      "n_perts": 201,
+      "ceiling": 0.4819672521140681,
+      "fm_donors": 0.4701248732079022,
+      "fm_pct_ceiling": 0.9754290797679276,
+      "all_donors": 0.4727899382121573,
+      "all_pct_ceiling": 0.9809586359619745,
+      "shuffled_floor": 0.10306162053134757
+    },
+    "gf2": {
+      "n_perts": 201,
+      "ceiling": 0.605687757371712,
+      "fm_donors": 0.5365686204667242,
+      "fm_pct_ceiling": 0.88588321942494,
+      "all_donors": 0.5436026984641029,
+      "all_pct_ceiling": 0.8974965926717463,
+      "shuffled_floor": 0.12133221117871265
+    },
+    "gf3": {
+      "n_perts": 201,
+      "ceiling": 0.6565087497773674,
+      "fm_donors": 0.531439446180242,
+      "fm_pct_ceiling": 0.8094933180410187,
+      "all_donors": 0.53962988431992,
+      "all_pct_ceiling": 0.8219690666772028,
+      "shuffled_floor": 0.15033461959699074
+    },
+    "pca": {
+      "n_perts": 201,
+      "ceiling": 0.7441434752839899,
+      "fm_donors": 0.5860437845370032,
+      "fm_pct_ceiling": 0.7875413868452578,
+      "all_donors": 0.5860437845370032,
+      "all_pct_ceiling": 0.7875413868452578,
+      "shuffled_floor": 0.18322228284012596
+    }
+  },
+  "pca_as_extra_donor_delta": {
+    "delta": 0.008099670057506956,
+    "ci": [
+      0.0065385071364046825,
+      0.009672141523511457
+    ]
+  },
+  "verdict": "PCA target reaches 79% of its ceiling from FM donors (FM targets: 80%-98%)"
+}

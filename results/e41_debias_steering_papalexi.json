@@ -1,0 +1,57 @@
+{
+  "dataset": "papalexi",
+  "targets": {
+    "scgpt": {
+      "raw": 0.2200791653811346,
+      "debiased": 0.22282389121268878,
+      "native": 0.22289707731899286,
+      "mismatch_deb": 0.135663836126098,
+      "generic": 0.15343226966744544,
+      "debiased_centred": 0.30542992612524333,
+      "mismatch_centred": 0.20790653089718747,
+      "centred_delta": {
+        "delta": 0.09752339522805584,
+        "ci": [
+          0.04538252104216841,
+          0.15293420351693107
+        ],
+        "significant": true
+      }
+    },
+    "gf1": {
+      "raw": 0.22259873800190522,
+      "debiased": 0.21880684843501066,
+      "native": 0.21041726504032734,
+      "mismatch_deb": 0.13231394448262382,
+      "generic": 0.15556740375085376,
+      "debiased_centred": 0.31248322889958197,
+      "mismatch_centred": 0.21577842043418674,
+      "centred_delta": {
+        "delta": 0.09670480846539521,
+        "ci": [
+          0.04108992005105957,
+          0.15633078823530874
+        ],
+        "significant": true
+      }
+    },
+    "gf2": {
+      "raw": 0.21243243475329981,
+      "debiased": 0.21282334693634322,
+      "native": 0.21814437098836742,
+      "mismatch_deb": 0.1289471970219504,
+      "generic": 0.14983668333180292,
+      "debiased_centred": 0.2984508792048255,
+      "mismatch_centred": 0.20541938028249876,
+      "centred_delta": {
+        "delta": 0.09303149892232673,
+        "ci": [
+          0.03679166169966475,
+          0.15198942147035757
+        ],
+        "significant": true
+      }
+    }
+  },
+  "verdict": "debiased transplant yields specific gene-level DE for ['scgpt', 'gf1', 'gf2']"
+}

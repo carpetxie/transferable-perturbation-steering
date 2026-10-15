@@ -1,0 +1,266 @@
+{
+  "models": [
+    "scgpt",
+    "gf1",
+    "gf2",
+    "gf3",
+    "scvi",
+    "pca"
+  ],
+  "k": 24,
+  "n_perturbations": 201,
+  "rows": [
+    {
+      "target": "scgpt",
+      "ceiling": 0.7266731431426097,
+      "native": 0.7266731431426097,
+      "arms": {
+        "all": {
+          "donors": [
+            "gf1",
+            "gf2",
+            "gf3",
+            "scvi",
+            "pca"
+          ],
+          "transfer": 0.6952515142477261,
+          "pct_ceiling": 0.9567596116749328,
+          "mismatch_floor": 0.40231086808834926,
+          "random_basis": -0.04734028204666806
+        },
+        "original": {
+          "donors": [
+            "gf1",
+            "gf2",
+            "gf3"
+          ],
+          "transfer": 0.6672610651141652,
+          "pct_ceiling": 0.918240988277745,
+          "mismatch_floor": 0.38940901930005645,
+          "random_basis": -0.15261866278391745
+        },
+        "new": {
+          "donors": [
+            "scvi",
+            "pca"
+          ],
+          "transfer": 0.6955655464745932,
+          "pct_ceiling": 0.9571917622639983,
+          "mismatch_floor": 0.40050887844570066,
+          "random_basis": -0.028008821992616978
+        }
+      }
+    },
+    {
+      "target": "gf1",
+      "ceiling": 0.6657330898012426,
+      "native": 0.6657330898012426,
+      "arms": {
+        "all": {
+          "donors": [
+            "scgpt",
+            "gf2",
+            "gf3",
+            "scvi",
+            "pca"
+          ],
+          "transfer": 0.6349550551004428,
+          "pct_ceiling": 0.9537682065495818,
+          "mismatch_floor": 0.38570305129595034,
+          "random_basis": -0.03172438018739283
+        },
+        "original": {
+          "donors": [
+            "scgpt",
+            "gf2",
+            "gf3"
+          ],
+          "transfer": 0.6202229317349469,
+          "pct_ceiling": 0.9316390325740261,
+          "mismatch_floor": 0.37774188487392985,
+          "random_basis": -0.05280060246284398
+        },
+        "new": {
+          "donors": [
+            "scvi",
+            "pca"
+          ],
+          "transfer": 0.6264073918409562,
+          "pct_ceiling": 0.9409287317053336,
+          "mismatch_floor": 0.38059031491669837,
+          "random_basis": -0.024170336233016614
+        }
+      }
+    },
+    {
+      "target": "gf2",
+      "ceiling": 0.6968704791071486,
+      "native": 0.6968704791071486,
+      "arms": {
+        "all": {
+          "donors": [
+            "scgpt",
+            "gf1",
+            "gf3",
+            "scvi",
+            "pca"
+          ],
+          "transfer": 0.6891808115966391,
+          "pct_ceiling": 0.9889654279510279,
+          "mismatch_floor": 0.4034843263030909,
+          "random_basis": -0.12464385589032245
+        },
+        "original": {
+          "donors": [
+            "scgpt",
+            "gf1",
+            "gf3"
+          ],
+          "transfer": 0.6718770247226821,
+          "pct_ceiling": 0.9641347206779531,
+          "mismatch_floor": 0.3935869536212956,
+          "random_basis": -0.04523289097282708
+        },
+        "new": {
+          "donors": [
+            "scvi",
+            "pca"
+          ],
+          "transfer": 0.6798004399760248,
+          "pct_ceiling": 0.9755047176729391,
+          "mismatch_floor": 0.40025717583759146,
+          "random_basis": -0.11878968722816662
+        }
+      }
+    },
+    {
+      "target": "gf3",
+      "ceiling": 0.7146062177654129,
+      "native": 0.7146062177654129,
+      "arms": {
+        "all": {
+          "donors": [
+            "scgpt",
+            "gf1",
+            "gf2",
+            "scvi",
+            "pca"
+          ],
+          "transfer": 0.6953116789478895,
+          "pct_ceiling": 0.9729997607943326,
+          "mismatch_floor": 0.40615893971910305,
+          "random_basis": 0.040315041863518364
+        },
+        "original": {
+          "donors": [
+            "scgpt",
+            "gf1",
+            "gf2"
+          ],
+          "transfer": 0.6806195748167161,
+          "pct_ceiling": 0.952440040257453,
+          "mismatch_floor": 0.39985297636891687,
+          "random_basis": -0.19535908653543338
+        },
+        "new": {
+          "donors": [
+            "scvi",
+            "pca"
+          ],
+          "transfer": 0.6805014880266662,
+          "pct_ceiling": 0.9522747928986781,
+          "mismatch_floor": 0.3969187909281291,
+          "random_basis": 0.07781262265050073
+        }
+      }
+    },
+    {
+      "target": "scvi",
+      "ceiling": 0.7865777788749659,
+      "native": 0.7865777788749659,
+      "arms": {
+        "all": {
+          "donors": [
+            "scgpt",
+            "gf1",
+            "gf2",
+            "gf3",
+            "pca"
+          ],
+          "transfer": 0.7053391748658447,
+          "pct_ceiling": 0.8967189180893008,
+          "mismatch_floor": 0.4103525420586256,
+          "random_basis": 0.048411628839583436
+        },
+        "original": {
+          "donors": [
+            "scgpt",
+            "gf1",
+            "gf2",
+            "gf3"
+          ],
+          "transfer": 0.6842007175829181,
+          "pct_ceiling": 0.8698449612465831,
+          "mismatch_floor": 0.40119085172119684,
+          "random_basis": -0.172820643593032
+        },
+        "new": {
+          "donors": [
+            "pca"
+          ],
+          "transfer": 0.7419957553330401,
+          "pct_ceiling": 0.9433215319078921,
+          "mismatch_floor": 0.42265380738669406,
+          "random_basis": 0.09687737167384831
+        }
+      }
+    },
+    {
+      "target": "pca",
+      "ceiling": 0.7982349005915436,
+      "native": 0.7982349005915436,
+      "arms": {
+        "all": {
+          "donors": [
+            "scgpt",
+            "gf1",
+            "gf2",
+            "gf3",
+            "scvi"
+          ],
+          "transfer": 0.7487809515294465,
+          "pct_ceiling": 0.938045869673891,
+          "mismatch_floor": 0.43827225341700077,
+          "random_basis": 0.20180117439283735
+        },
+        "original": {
+          "donors": [
+            "scgpt",
+            "gf1",
+            "gf2",
+            "gf3"
+          ],
+          "transfer": 0.7309271017813789,
+          "pct_ceiling": 0.9156792082627742,
+          "mismatch_floor": 0.430993211591552,
+          "random_basis": 0.021974706613661292
+        },
+        "new": {
+          "donors": [
+            "scvi"
+          ],
+          "transfer": 0.7521888214254312,
+          "pct_ceiling": 0.9423151266225152,
+          "mismatch_floor": 0.4317114941359123,
+          "random_basis": 0.19967812311642583
+        }
+      }
+    }
+  ],
+  "summary": {
+    "new_target_original_donors_pct": 0.8927620847546787,
+    "old_target_new_donors_pct": 0.9564750011352372,
+    "all_donors_pct": 0.9512096324555112
+  },
+  "evidence_boundary": "Norman2019 only; scVI and PCA were trained/fitted on control cells only; target perturbation labels were used only for held-out scoring."
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "norman",
+  "bias_consistency": 0.7451131664326658,
+  "donor": 0.5937959521067538,
+  "debiased": 0.7909410913820648,
+  "native": 0.5344418444944038,
+  "debiased_minus_donor": {
+    "delta": 0.197145139275311,
+    "ci": [
+      0.1850551390032079,
+      0.2099706505881329
+    ],
+    "significant": true
+  },
+  "debiased_minus_native": {
+    "delta": 0.2564992468876609,
+    "ci": [
+      0.24104552263588241,
+      0.27206178906438966
+    ],
+    "significant": true
+  }
+}

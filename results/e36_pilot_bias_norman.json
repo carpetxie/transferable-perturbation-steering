@@ -1,0 +1,51 @@
+{
+  "dataset": "norman",
+  "donor": 0.5975299739126977,
+  "native": 0.5385310303178692,
+  "pilots": {
+    "1": {
+      "debiased": 0.7200952640988363,
+      "sd": 0.026788496129231842,
+      "vs_donor": 0.1225652901861386,
+      "vs_native": 0.1815642337809671,
+      "frac_draws_beat_native": 1.0
+    },
+    "2": {
+      "debiased": 0.7416623525303798,
+      "sd": 0.02463183470197347,
+      "vs_donor": 0.14413237861768213,
+      "vs_native": 0.20313132221251062,
+      "frac_draws_beat_native": 1.0
+    },
+    "3": {
+      "debiased": 0.757306641386285,
+      "sd": 0.017925443052630677,
+      "vs_donor": 0.15977666747358732,
+      "vs_native": 0.2187756110684158,
+      "frac_draws_beat_native": 1.0
+    },
+    "5": {
+      "debiased": 0.7729350739541504,
+      "sd": 0.011699541509610605,
+      "vs_donor": 0.1754051000414527,
+      "vs_native": 0.2344040436362812,
+      "frac_draws_beat_native": 1.0
+    },
+    "10": {
+      "debiased": 0.7812259047132364,
+      "sd": 0.007136524690367247,
+      "vs_donor": 0.1836959308005387,
+      "vs_native": 0.2426948743953672,
+      "frac_draws_beat_native": 1.0
+    },
+    "20": {
+      "debiased": 0.7871104537018758,
+      "sd": 0.00359268223870006,
+      "vs_donor": 0.18958047978917814,
+      "vs_native": 0.24857942338400663,
+      "frac_draws_beat_native": 1.0
+    }
+  },
+  "min_pilot": 1,
+  "verdict": "a pilot of 1 perturbations suffices to beat native"
+}

@@ -1,0 +1,57 @@
+{
+  "dataset": "norman",
+  "targets": {
+    "scgpt": {
+      "transplant": 0.5828486825529883,
+      "native": 0.5909075270341982,
+      "mismatch": 0.4290300286865928,
+      "generic": 0.48113172064526044,
+      "linear": 0.5796984754072568,
+      "transplant_centred": 0.4345012231127677,
+      "mismatch_centred": 0.15242039542212843,
+      "centred_delta_vs_mismatch": {
+        "delta": 0.28208082769063925,
+        "ci": [
+          0.23611033027224185,
+          0.3279034344317857
+        ],
+        "significant": true
+      }
+    },
+    "gf1": {
+      "transplant": 0.5714604018088095,
+      "native": 0.556288211572639,
+      "mismatch": 0.42916112113494814,
+      "generic": 0.47384269558013953,
+      "linear": 0.5679558813701687,
+      "transplant_centred": 0.4196104111120167,
+      "mismatch_centred": 0.14945440979529137,
+      "centred_delta_vs_mismatch": {
+        "delta": 0.27015600131672524,
+        "ci": [
+          0.22561690655309263,
+          0.3166224525739981
+        ],
+        "significant": true
+      }
+    },
+    "gf2": {
+      "transplant": 0.5756992149916641,
+      "native": 0.5767897811858496,
+      "mismatch": 0.42675006151572253,
+      "generic": 0.4750708917742236,
+      "linear": 0.570466247114588,
+      "transplant_centred": 0.4326532239122149,
+      "mismatch_centred": 0.15113575302730403,
+      "centred_delta_vs_mismatch": {
+        "delta": 0.2815174708849108,
+        "ci": [
+          0.23439292210300006,
+          0.3287699064221838
+        ],
+        "significant": true
+      }
+    }
+  },
+  "verdict": "steered state usable by a nonlinear consumer for targets ['scgpt', 'gf1', 'gf2']"
+}

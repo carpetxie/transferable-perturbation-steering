@@ -1,0 +1,23 @@
+{
+  "dataset": "adamson",
+  "bias_consistency": 0.8460990687379962,
+  "donor": 0.4922866184033814,
+  "debiased": 0.8257248953838222,
+  "native": 0.3588599012988996,
+  "debiased_minus_donor": {
+    "delta": 0.33343827698044093,
+    "ci": [
+      0.30940562264337185,
+      0.35907210685788093
+    ],
+    "significant": true
+  },
+  "debiased_minus_native": {
+    "delta": 0.46686499408492277,
+    "ci": [
+      0.4382117651258807,
+      0.4961458056115963
+    ],
+    "significant": true
+  }
+}

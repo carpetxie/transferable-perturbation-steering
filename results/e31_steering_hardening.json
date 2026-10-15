@@ -1,0 +1,158 @@
+{
+  "target": "gf2",
+  "donors": [
+    "scgpt",
+    "gf1"
+  ],
+  "K_sweep": {
+    "K24_alpha0.0316228": {
+      "alpha": 0.03162277660168379,
+      "K": 24,
+      "n": 201,
+      "transplant": 0.5750642336286612,
+      "transplant_spec": 0.2773901278333264,
+      "native": 0.5766913642140985,
+      "native_spec": 0.2847374344386419,
+      "mismatch": 0.3394481911001114,
+      "mismatch_spec": -0.004515045311134335,
+      "generic": 0.46966333769155744,
+      "generic_spec": -0.01382137289855171,
+      "transplant_minus_mismatch": {
+        "delta": 0.2356160425285499,
+        "ci": [
+          0.19766342357286185,
+          0.27433992347768793
+        ],
+        "significant": true
+      },
+      "transplant_minus_mismatch_spec": {
+        "delta": 0.28190517314446073,
+        "ci": [
+          0.24831166044525443,
+          0.3161113969908052
+        ],
+        "significant": true
+      },
+      "transplant_minus_native": {
+        "delta": -0.0016271305854372218,
+        "ci": [
+          -0.004469176264560433,
+          0.0011508822817047101
+        ],
+        "significant": false
+      }
+    },
+    "K24_alpha1": {
+      "alpha": 1.0,
+      "K": 24,
+      "n": 201,
+      "transplant": 0.5745902694844712,
+      "transplant_spec": 0.2722232303393823,
+      "native": 0.575863843182872,
+      "native_spec": 0.2787280379792943,
+      "mismatch": 0.34301079851972666,
+      "mismatch_spec": 0.0079184668452858,
+      "generic": 0.47050873317979425,
+      "generic_spec": -0.014031257431517312,
+      "transplant_minus_mismatch": {
+        "delta": 0.23157947096474452,
+        "ci": [
+          0.19195349240752768,
+          0.2711693262534496
+        ],
+        "significant": true
+      },
+      "transplant_minus_mismatch_spec": {
+        "delta": 0.26430476349409654,
+        "ci": [
+          0.23134744844802335,
+          0.29871250734397253
+        ],
+        "significant": true
+      },
+      "transplant_minus_native": {
+        "delta": -0.0012735736984008678,
+        "ci": [
+          -0.003919012172463102,
+          0.0013302962987667378
+        ],
+        "significant": false
+      }
+    },
+    "K24_alpha100": {
+      "alpha": 100.0,
+      "K": 24,
+      "n": 201,
+      "transplant": 0.5735058445148575,
+      "transplant_spec": 0.2669770093398818,
+      "native": 0.574659005559477,
+      "native_spec": 0.27296804661882235,
+      "mismatch": 0.32244272887133096,
+      "mismatch_spec": -0.01594338039532838,
+      "generic": 0.4711211064614617,
+      "generic_spec": -0.014167592575731257,
+      "transplant_minus_mismatch": {
+        "delta": 0.25106311564352657,
+        "ci": [
+          0.20891993912773335,
+          0.2937175549574774
+        ],
+        "significant": true
+      },
+      "transplant_minus_mismatch_spec": {
+        "delta": 0.28292038973521016,
+        "ci": [
+          0.24755955164619248,
+          0.31859054525311287
+        ],
+        "significant": true
+      },
+      "transplant_minus_native": {
+        "delta": -0.0011531610446194518,
+        "ci": [
+          -0.0035974208035995346,
+          0.001326593793869344
+        ],
+        "significant": false
+      }
+    },
+    "K48_alpha0.1": {
+      "alpha": 0.1,
+      "K": 48,
+      "n": 201,
+      "transplant": 0.5782017904772456,
+      "transplant_spec": 0.28602972350051936,
+      "native": 0.5812877154103597,
+      "native_spec": 0.29372658836043625,
+      "mismatch": 0.34658276415387745,
+      "mismatch_spec": 0.005066150844720099,
+      "generic": 0.4706536650707674,
+      "generic_spec": -0.013903578989861127,
+      "transplant_minus_mismatch": {
+        "delta": 0.23161902632336806,
+        "ci": [
+          0.19441286824259035,
+          0.27137331085081795
+        ],
+        "significant": true
+      },
+      "transplant_minus_mismatch_spec": {
+        "delta": 0.2809635726557993,
+        "ci": [
+          0.25029785573704816,
+          0.3157557631475069
+        ],
+        "significant": true
+      },
+      "transplant_minus_native": {
+        "delta": -0.00308592493311421,
+        "ci": [
+          -0.006245229430284078,
+          -8.500602293598664e-05
+        ],
+        "significant": true
+      }
+    }
+  },
+  "verdict": "HOLDS: the correct delta beats a mismatched one even after the generic direction is removed"
+}
